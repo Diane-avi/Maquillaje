@@ -139,20 +139,22 @@ body {
 /* Galería */
 .galeria-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
 }
 
 .galeria-item img {
   width: 100%;
   height: auto;
   border-radius: 8px;
-  transition: transform 0.3s;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
 }
 
 .galeria-item img:hover {
   transform: scale(1.05);
-}
+  }
 
 /* Footer */
 .footer {
